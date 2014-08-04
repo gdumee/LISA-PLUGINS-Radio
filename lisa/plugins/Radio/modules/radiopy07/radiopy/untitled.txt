@@ -1,0 +1,1423 @@
+<!--[if lt IE 7]>  <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie ie6"> <![endif]--><!--[if IE 7]>     <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie ie7"> <![endif]--><!--[if IE 8]>     <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie ie8"> <![endif]--><!--[if IE 9]>     <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie ie9"> <![endif]--><!--[if IE 10]>    <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie ie10"> <![endif]--><!--[if gt IE 10]>  <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie"> <![endif]--><!--[if !IE]><!--><html xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
+<head component="Head">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<title>Search results for Loca FM - Listen Online</title>
+<!--[if lt IE 9]>
+	  <link rel="stylesheet" href="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/css/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+<link href="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/css/animate-custom.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+<link href="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/css/core-styles-bundle.css" rel="stylesheet" type="text/css"/>
+<link href="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/css/ipad.css" media="only screen and (max-device-width: 1024px)" rel="stylesheet" type="text/css"/>
+<script src="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/js/lib/modernizr-2.6.2.min.js"></script>
+<script src="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/js/lib/modernizr.preserve-3d.js"></script>
+<link href="/favicon.ico?v=fm" rel="shortcut icon"/>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  try {
+    _gaq.push(['_setAccount', "UA-1720788-1"]);
+    _gaq.push(['_trackPageLoadTime']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  } catch (err) { }
+</script>
+<script type="text/javascript">
+	  var APP_PATH	= "/";
+	  var LOGO_PATH	= "http://d1i6vahw24eb07.cloudfront.net/";
+	  var IMAGE_PATH	= "http://d3bwsr3zpy54hy.cloudfront.net/201407231517/img/";
+	  var SECURE_PATH = "https://tunein.com/";
+	  var BASE_URL	= "http://tunein.com";
+	  var AUTH_COOKIE = "authCookie";
+	  var IS_MOBILE = false;
+	  var IS_AUTHENTICATED = false;
+    //abtest 2014-05-31 start
+	  var STARTUP_FLOW = "LS,B";
+	  //abtest 2014-05-31 end
+	  var TuneIn = { };
+
+	  /* required for audio ads, should be mapped to where the audio ads are housed */
+	  var RadioTime = RadioTime || {};
+	  RadioTime.flashV2Url = "http://d3bwsr3zpy54hy.cloudfront.net/201407231517/js/lib/swf/player-AS2.swf";
+	  RadioTime.flashV3Url = "http://d3bwsr3zpy54hy.cloudfront.net/201407231517/js/lib/swf/player-AS3.swf";
+	</script>
+<script language="javascript" type="text/javascript">
+    var trackerQuery = "Search results for Loca FM";
+  </script>
+<meta content="Search results for Loca FM - listen online to music and talk radio." name="description"/>
+<meta content="Search results for Loca FM, radio, online, talk, music" name="keywords"/>
+</head>
+<body class="" component="Application">
+<div component="TunablePlayer" id="tuneInRadioPlayer"></div>
+<div id="siteWrapper">
+<div component="Header">
+<div class="header-slip"></div>
+<header>
+<div class="container clearfix">
+<div class="fl-r " id="headerAcct">
+<div class="anchors"><a class="login-button _accountIframe" data-height="750" data-hijax="false" data-target="authModal" data-width="900" href="https://tunein.com/account/newiframe/login/">Sign In</a><span class="bullet">•</span><a class="signup-button _accountIframe" data-height="750" data-hijax="false" data-target="authModal" data-width="900" href="https://tunein.com/account/newiframe/signup/">Sign Up<span class="divider"></span></a></div>
+</div>
+<div class="logo-cont fl-l">
+<a data-background="#DCE1E3" href="/" id="tuneinLogo"></a>
+</div>
+<ul class="nav clearfix fl-l" id="mainNav">
+<li class="fl-l explore_header"><a href="/explore/">Explore</a></li>
+<li class="fl-l browse_header">
+<a href="#">Browse<span class="chevron"></span></a>
+<ul class="drawer">
+<li class="local_radio"><a href="/radio/Rochefort-France-r101846/?qlc=1">Local</a></li>
+<li class="all_music"><a href="/radio/Music-g1/">Music</a></li>
+<li class="all_sports"><a href="/radio/Sports-g323/">Sports</a></li>
+<li class="all_news"><a href="/radio/News-c57922/">News</a></li>
+<li class="all_talk"><a href="/radio/Spoken-g2/">Talk</a></li>
+<li class="by_location"><a href="/radio/Browse-Locations-r0/">By Location</a></li>
+</ul>
+</li>
+</ul>
+<div class="search-cont fl-r">
+<form action="/search/" behavior="preventEmptySearch" class="searchForm clearfix">
+<input autocomplete="off" class="search-input _autoComplete fl-l" data-align="right" data-async="true" data-extratoppadding="0" data-link="true" data-maxheight="5" data-minwidth="294px" data-template="site-autocomplete" data-ttl="60000" data-url="search/suggest/" name="query" placeholder="Search" type="text"/>
+<input class="fl-l search-button" type="submit"/>
+</form>
+</div>
+</div>
+</header>
+</div>
+<div class="loading-dialog"><div class="container"><div class="bar"></div></div></div>
+<div class="clearfix" id="content">
+<div class="container padded">
+<div class="col1 col">
+<div class="results grouped" component="Explore">
+<div id="top">
+<div class="results-header">
+<h1>Search results for <span class="type-label">Loca FM</span></h1>
+</div>
+</div>
+<!-- end default variant -->
+<section class="search-results" id="stationResults">
+<div class="compound-header clearfix">
+<h2>Stations</h2>
+<div class="pagination">
+<div class="pagination-links cols">
+<span class="message col">Showing 1-7 of 11</span>
+<a class="pager-next col" data-node="stationResults" href="/search/page/?query=Loca+FM&amp;page=true&amp;filter=!p%3a!e&amp;offset=7" rel="nofollow"><span class="icon"></span></a>
+</div>
+</div>
+</div>
+<ul class="list-results">
+<li class="clearfix play odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="7989" data-tooltipclass="list" data-topicid="0" data-tunetype="Station" href="/radio/Loca-Fun-Radio-903-s7989/" title="Listen to Loca Fun Radio (Loca FM), 90.3 Madrid">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" fm="" for="" fun="" loca="" more="" radio="" src="http://d1i6vahw24eb07.cloudfront.net/s7989t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Loca Fun Radio</h3>
+<p>DE 10 a 19h Musicón Non Stop</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix play_alt guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="171246" data-tooltipclass="list" data-tooltipdelay="'0'" data-topicid="0" data-tunetype="Station" href="/radio/Loca-FM-Tenerife-960-s171246/" title="Reports indicate this source is unreliable.  You may sometimes experience problems listening.">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" fm="" for="" loca="" more="" src="http://d1i6vahw24eb07.cloudfront.net/s171246t.png" tenerife=""/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Loca FM Tenerife</h3>
+<p>La radio líder en música electrónica</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix play odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="116701" data-tooltipclass="list" data-topicid="0" data-tunetype="Station" href="/radio/Locactiva-radio-s116701/" title="Listen to Locactiva radio (Loca FM La Mancha), La Mancha">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" fm="" for="" la="" locactiva="" mancha="" more="" radio="" src="http://d1i6vahw24eb07.cloudfront.net/s116701t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Locactiva radio</h3>
+<p>No Hay Quien Nos Pare!!!</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="163947" data-tooltipclass="list" data-topicid="0" data-tunetype="Station" href="/radio/Loca-FM-Salamanca-875-s163947/" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" fm="" for="" loca="" more="" salamanca="" src="http://d1i6vahw24eb07.cloudfront.net/s163947t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Loca FM Salamanca</h3>
+<p>Sonido Dancefloor</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="152829" data-tooltipclass="list" data-topicid="0" data-tunetype="Station" href="/radio/Loca-Fun-FM-Vitoria-888-s152829/" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" fm="" for="" fun="" loca="" more="" src="http://d1i6vahw24eb07.cloudfront.net/s152829t.png" vitoria=""/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Loca Fun FM Vitoria</h3>
+<p>La radio líder en música electrónica</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix play guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="185136" data-tooltipclass="list" data-topicid="0" data-tunetype="Station" href="/radio/Loca-Fun-Radio-Avila-990-FM-s185136/" title="Listen to Loca Fun Radio Avila 99.0 FM, Madrid">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' avila="" class="logo" click="" details="" fm="" for="" fun="" loca="" more="" radio="" src="http://d1i6vahw24eb07.cloudfront.net/s185136t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Loca Fun Radio Avila 99.0 FM</h3>
+<p>Sonido Dancefloor en Ávila</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix play_alt odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="115615" data-tooltipclass="list" data-tooltipdelay="'0'" data-topicid="0" data-tunetype="Station" href="/radio/Loca-FM-La-Ribera-977-s115615/" title="Reports indicate this source is unreliable.  You may sometimes experience problems listening.">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" fm="" for="" la="" loca="" more="" ribera="" src="http://d1i6vahw24eb07.cloudfront.net/s115615t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Loca FM La Ribera</h3>
+<p>Diban</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+</ul>
+</section><section class="search-results" id="programResults">
+<div class="compound-header clearfix">
+<h2>Shows</h2>
+<div class="pagination">
+<div class="pagination-links cols">
+<span class="message col">Showing 1-7 of 23</span>
+<a class="pager-next col" data-node="programResults" href="/search/page/?query=Loca+FM&amp;page=true&amp;filter=!s%3a!e&amp;offset=7" rel="nofollow"><span class="icon"></span></a>
+</div>
+</div>
+</div>
+<ul class="list-results">
+<li class="clearfix noStream odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="437723" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Program" href="/radio/Ineil-30-Radio-Show-p437723/" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" for="" ineil="" more="" radio="" show="" src="http://d1i6vahw24eb07.cloudfront.net/p437723t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Ineil 3.0 Radio Show</h3>
+<p>iNeil 3.0 Es uno de los programas referente en musica electronica y que puedes seguir en LOCA FM los Lunes de 00:00 horas hasta las 02:00 horas. Guiado por...</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="370873" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Program" href="/radio/Hora-de-Locas-p370873/" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" de="" details="" for="" hora="" locas="" more="" src="http://d1i6vahw24eb07.cloudfront.net/p0t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Hora de Locas</h3>
+<p>Este el paréntesis de La Noche Digital. Cata Romero, se auto-asume una "loca de patio" y cada noche convierte Digital Fm, en una junta de amigos, a través...</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="340906" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Program" href="/radio/Las-Man%c3%a3nas-p340906/" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" for="" las="" man="" more="" src="http://d1i6vahw24eb07.cloudfront.net/s116701t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Las Manãnas</h3>
+<p>Santy LaFonte te pone las pilas desde bien temprano, cada mañana de 7 a 10 en loca fm</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="340982" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Program" href="/radio/La-maquina-Del-Tiempo-p340982/" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" del="" details="" for="" la="" maquina="" more="" src="http://d1i6vahw24eb07.cloudfront.net/s116701t.png" tiempo=""/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>La maquina Del Tiempo</h3>
+<p>El Programa remember numero 1 en toda España en exclusiva para loca FM la mancha</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix play_pod odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="0" data-tooltipclass="list" data-topicid="51985015" data-tunetype="Topic" href="/topic/?topicId=51985015" title="Listen to Ponte A Prueba - Lunes 30 de septiembre de 2013">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img a="" alt='"Logo' class="logo" click="" de="" details="" for="" lunes="" more="" ponte="" prueba="" septiembre="" src="http://d1i6vahw24eb07.cloudfront.net/p338612t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Ponte A Prueba - Lunes 30 de septiembre de 2013</h3>
+<p>En el último Ponte a prueba...Gran programa para despedir septiembre y empezar la semana, historias como la ex loca de Leti, Devi que se lía con su vecino...</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix play_pod guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="0" data-tooltipclass="list" data-topicid="75472128" data-tunetype="Topic" href="/topic/?topicId=75472128" title="Listen to iNeil 3.0 Episodio 117 - Bloque 2">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' bloque="" class="logo" click="" details="" episodio="" for="" ineil="" more="" src="http://d1i6vahw24eb07.cloudfront.net/p437723t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>iNeil 3.0 Episodio 117 - Bloque 2</h3>
+<p>iNeil 3.0 es uno de los programas referentes en lo que a musica electronica y que puedes seguir en Loca FM los Lunes de 00:00 a 02:00 horas. Guiado y...</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix play_pod odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+<span class="icon echo"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="0" data-tooltipclass="list" data-topicid="75472311" data-tunetype="Topic" href="/topic/?topicId=75472311" title="Listen to iNeil 3.0 Episodio 117 - Bloque 1">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<span class="overlay"></span>
+<div class="chrome _playTarget"><div class="icon"></div></div>
+<div class="image-cont">
+<img alt='"Logo' bloque="" class="logo" click="" details="" episodio="" for="" ineil="" more="" src="http://d1i6vahw24eb07.cloudfront.net/p437723t.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>iNeil 3.0 Episodio 117 - Bloque 1</h3>
+<p>iNeil 3.0 es uno de los programas referentes en lo que a musica electronica y que puedes seguir en Loca FM los Lunes de 00:00 a 02:00 horas. Guiado y...</p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+</ul>
+</section><section class="search-results" id="userResults">
+<div class="compound-header clearfix">
+<h2>Users</h2>
+<div class="pagination">
+</div>
+</div>
+<ul class="list-results">
+<li class="clearfix noStream odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Unknown" href="/user/locafmalicante" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" for="" more="" src="https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Loca Fm Alicante Benidorm</h3>
+<p></p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Unknown" href="/user/radiccifm" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" for="" more="" src="https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>Radicci  FM</h3>
+<p></p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Unknown" href="/user/fmkahoku" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" for="" more="" src="https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>FM kahoku</h3>
+<p></p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Unknown" href="/user/user142469" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" for="" more="" src="https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>fm </h3>
+<p></p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+<li class="clearfix noStream odd guide-item">
+<p class="social-panel">
+<span class="follow out">
+<span class="check"></span>
+<span class="plus"></span>
+</span>
+<span class="icon share"></span>
+</p>
+<a class="_tooltip overlay-hover-trigger clearfix" data-programid="0" data-stationid="0" data-tooltipclass="list" data-topicid="0" data-tunetype="Unknown" href="/user/fm373fm" title="No Stream">
+<div class="col artworkCol">
+<div class="overlay-cont">
+<div class="image-cont">
+<img alt='"Logo' class="logo" click="" details="" for="" more="" src="https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png"/>
+</div>
+</div>
+</div>
+<span class="show">
+<h3>??????? </h3>
+<p></p>
+</span>
+<span class="fl-l info">
+</span>
+</a>
+</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="col2 col">
+<div id="sidebar">
+<div class="ad-block external">
+<div class="ad-container">
+<div class="ad-content" id="div-gtp-ad-1375726570057-0"></div>
+</div> </div>
+</div>
+</div>
+<script id="result-detail-item-template-src" type="text/x-jquery-tmpl">
+							{{if IsUrl }}
+							<li class="browse clearfix">
+							 <a href="${Url}" class="_tooltip" title="Browse" data-tooltipClass="list">
+							{{else IsPlayable || IsFilteredStream }}
+								{{if PlayView.IsRestricted}}
+								<li class="restrict clearfix">
+								 <a href="${Url}" class="_tooltip" title="${PlayView.TooltipText}" data-tooltipClass="list" ${PlayView.AuxText ? 'data-tooltipDelay="0"' : ''}>
+								{{else}}
+								<li class="${PlayView.ListenStyle} clearfix">
+								<a href="${Url}" class="_tooltip" title="${PlayView.TooltipText}" data-tooltipClass="list" ${PlayView.AuxText ? 'data-tooltipDelay="0"' : ''}>
+								{{/if}}
+							{{else HasPlayableArchive}}
+							<li class="listenOnDemand clearfix">
+									<a href="${Url}" class="_tooltip" title="Listen On Demand" data-tooltipClass="list">
+							{{else IsTopic}}
+							<li class="learnMore clearfix">
+									<a class=" _tooltip" href="${Url}" title="Learn More" data-tooltipClass="list">
+							{{else}}
+							<li class="noStream clearfix">
+									<a class="_tooltip" href="${Url}" title="No Stream" data-tooltipClass="list">
+							{{/if}}	
+			<span class="fl-l logoCont">
+				<span class="image-cont">
+						<span class="overlay"><span class="icon"></span></span>
+						<img src="${SearchLogoThumb}" alt="Logo for ${ TitleSearch + ', click for more details' }" width="70" height="50" class="logo"/>
+				</span>	
+			</span>
+			<span class="show">
+				<h3>${HasFrequencyTitle ? TitleFrequency : TitleSearch}</h3>
+				
+				{{var labeled = false}}
+				{{if SongView !== null}} 
+					{{var labeled = true}}
+					<span class="on_now">
+				    {{if SongView.ArtistId > 0}}
+				        ${SongView.Artist} - ${SongView.Title}
+		        {{else}}
+				        <span class="songPlaying">${SongView.StandardTitle}</span>
+            {{/if}}
+          </span>
+				{{/if}}
+				{{if NowPlaying !== null && !labeled}}
+					{{var labeled = true}}
+					<span class="on_now">${NowPlaying}</span>
+				{{/if}}
+
+				{{if !labeled && NextPlaying!==null}}
+					<span class="on_now">${NextPlaying}</span>
+				{{/if}}
+				
+				{{if !labeled}}
+					<span class="on_now">${TitleSuffix}</span>
+				{{/if}}
+				
+				{{if IsProgram || IsTopic}}
+					<span class="desc">${DescriptionSummary}</span>
+				{{else IsStation}}
+					<span class="desc">
+						{{if Genres.length>0}}
+				      {{each Genres}}
+				        <span class="genre">
+				          {{if $index!==0}}, {{/if}}
+				          ${$value.LocalizedName}
+				        </span>
+				      {{/each}}
+						{{/if}}
+						{{if LocationString !== null}}
+							| ${LocationString}
+						{{/if}}
+
+					</span>
+				{{/if}}
+				{{if IsSponsored}}
+					<span class="promoted-badge">
+						<span class="img"></span> Featured 
+					</span>
+				{{/if}}
+			</span>
+			<span class="fl-l info">
+				${Tunes}
+			</span>
+			</a>
+		</li>
+
+</script>
+<script id="tileTemplate" type="template">
+	<div class="flipper-<%=Size%>">
+		<div id="tile<%=Index%>" class="<%=Size%> tile">
+		  <div class="side front">
+		  </div>
+		  <div class="side back">
+		  </div>
+		</div>
+	</div>
+</script>
+<script id="paneTemplate" type="template">
+	<div class="media">
+		<div class="artwork">
+			<%= PanelContent %>
+		</div>
+		<div class="play-button">
+	    <span class="icon"></span>
+    </div>
+		<div class="text">
+			<div class="labels clearfix">
+				<div class="fl-l label">
+					<a href="<%= Link %>"><%= (Label.length>20 ? Label.substring(0,16)+'...' : Label) %></a>
+				</div>
+				<div class="fl-l corner"></div>
+			</div>
+			<div class="area">
+				<div class="detail">
+					<%= CardContent %>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ff scroll-button"><div class="action"></div></div>
+</script>
+<script id="cardTemplate" type="template">
+	<div class="panel">
+	<% if ( IsMusic ) { %>
+    <% if (Subtitle.length>0) { %>
+	    <div class="title"><%= (Subtitle.length>42? Subtitle.substring(0,39)+'...' : Subtitle) %></div>
+        <div class="subtitle"><%= Title %></div>
+    <% } else { %>
+        <div class="title"><%= Title %></div>
+    <% } %>
+
+	<div class="started">Just Started!</div>
+	<% } else {%>
+	<div class="spacer"></div>
+	<div class="started">On Now!</div>
+	<% } %>
+	<div class="link"><a href="/search/?categoryId=<%= ContentId %>">More&nbsp;<%=Label%></a></div>
+	</div>
+</script>
+<script id="panelTemplate" type="template">
+	<img alt="artwork" src="<%= ArtworkUrl %>" />
+	<div class="filter"></div>
+<% if ( ! IsMusic ) { %>
+	<div class="talk-text">
+		<div class="title-talk"><%= Title %></div>
+		<div class="subtitle-talk"><%= Subtitle %></div>
+	</div>
+<% } %>
+</script>
+<script id="defaultPaneTemplate" type="template">
+	<div class="media <%= Size %>">
+		<div class="artwork">
+			<img alt="artwork" src="<%= ArtworkUrl %>" />
+		</div>
+	</div>
+</script>
+<script id="customizeTemplate" type="template">
+				    <a class="copy _bbmodal" href="" data-hijax="false">
+  					  <span class="icon"></span>
+  					  <span class="headline">Customize</span>
+  					  <span class="sub">Customize categories for TuneIn Live.</span>
+					</a>
+</script>
+<!-- End new templates -->
+</div>
+</div>
+</div>
+<div class="idle" component="Tuner" id="tuner">
+<div class="wrapper no-art clearfix dark">
+<div class="container">
+<div class="playbutton-cont col">
+<div class="icon"></div>
+</div>
+<div class="artwork col _navigateNowPlaying">
+<div class="filter"></div>
+<div class="image">
+<img alt="Logo" class="placeholder" src="http://d1i6vahw24eb07.cloudfront.net/s0q.png"/>
+</div>
+</div>
+<div class="display">
+<div behavior="scrolling" class="line1 _navigateNowPlaying">
+<div class="info"></div>
+<div class="status"></div>
+</div>
+<div class="line2 _navigateNowPlaying"></div>
+<div class="scrubber-cont"></div>
+</div>
+<div class="secondary-actions">
+<div class="icon follow"></div>
+<div class="icon echo"></div>
+<div class="icon share"></div>
+</div>
+<div class="volume-control">
+<div class="volume-slider">
+<div class="volume-slider-blocker"></div>
+<div class="volume-slider-handle"></div>
+</div>
+<div class="overlay">
+<div class="icon"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script id="favoriteButtonTemplate" type="text/html">
+		<a class="_favoriteItem favorite <%=favoriteClass + ' ' + buttonStyleClass%>"  behavior="<%=behavior %>" data-hijax="false">
+			<%=text%>
+		</a>
+</script>
+<script id="configView" type="text/html">
+        <div class='wizard'>
+        <div class='hd'>
+            <h2 class='modalH2'>Media support on this computer</h2>
+            <p class='sub-head'>This tuner will use players installed on your computer for reliable internet radio. You can use the check boxes to ignore a player. </p>
+            </div>
+        <div class='bd text-block'>
+            <div class='mediaPlayerList cols'>
+                <div class='installedList col'>
+                    <h3>Installed</h3>
+                    <div class='installedPlayers'></div>
+                    </div>
+                <div class='recommendedPlayerList col'>
+                    <h3>Recommended</h3>
+                    <div class='recommendedPlayers'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</script>
+<script id="indexTemplate" type="text/html">
+     <div class="hd">
+         <h2 class="modalH2">Tell us what's wrong:</h2>
+         <div class="bd text-block">
+             <ul>
+                 <% if (!radio.nowPlaying.stopped) { %>
+                 <li><a href="#" class="_tryAlternateStream">It stops or doesn't work</a></li>
+                 <% } %>
+                 <% if (radio.nowPlaying.stopped) { %>
+                 <li><a href="#" class="_tryAlternateStream">The sound is poor or cuts out</a></li>
+                 <% } %>
+                 <% if (radio.nowPlaying.stopped) { %>
+                 <li><a href="#" class="_tryAlternateStream">I hear the wrong music or show</a></li>
+                 <% } %>
+                 <% if (radio.nowPlaying.stopped) { %>
+                 <li><a href="#" class="_openFeedback">The information displayed is wrong</a></li>
+                 <% } %>
+                 <li><a href="#" class="_config">Check media support</a></li>
+                 <li><a href="#" class="_close">Cancel</a></li>
+                 <li><a data-hijax="false" href="<%= BASE_URL %>/support/listening-help" class="_openUrl">Help</a></li>
+             </ul>
+         </div>
+     </div>
+</script>
+<script id="nomorestreamsTemplate" type="text/html">
+    <div class="hd">
+        <h2 class="modalH2">We didn't find any playable streams</h2>
+        <div class="bd text-block">
+            <ul>
+                <li><a href="#" class="_reload">Try again</a></li>
+                <li><a href="#" class="_config">Check media support</a></li>
+                <li><a data-hijax="false" href="<%= BASE_URL %>/support/listening-help" class="_openUrl">Help</a></li>
+            </ul>
+        </div>
+    </div>
+</script>
+<script id="missingplayerTemplate" type="text/html">
+    <div class="hd">
+        <h2 class="modalH2">We can't find a player required to listen to this station</h2>
+        <div class="bd text-block">
+            <ul>
+                <li><a href="#" class="_openUrl">Try to play anyway</a></li>
+                <li><a data-hijax="false" href="<%= BASE_URL %>/support/listening-help" class="_openUrl">Help</a></li>
+            </ul>
+        </div>
+    </div>
+</script>
+<script id="endTemplate" type="text/html">
+    <div class="hd">
+        <h2 class="modalH2">We can't find a player required to listen to this station</h2>
+        <div class="bd text-block">
+            <ul>
+                <li><a href="#" class="_openFeedback">Tell us more about it</a></li>
+                <li><a href="#" class="_config">Check media support</a></li>
+                <li><a href="#" class="_close">Continue</a></li>
+            </ul>
+        </div>
+    </div>
+</script>
+<script id="confirmTemplate" type="text/html">
+    <div class="hd">
+        <h2 class="modalH2">Is it working now?</h2>
+        <div class="bd text-block">
+            <ul>
+                <li><a href="#" class="_close">Yes</a></li>
+                <li><a href="#" class="_open" data-view="index">No</a></li>
+
+            </ul>
+        </div>
+    </div>
+</script>
+<script id="scrubber" type="text/html">
+    <div id="scrubber-duration" class="fl-r"></div>
+    <div id="scrubber-elapsed" class="col"></div>
+    <a href="#" onclick="return false;" class="scrubber-slider">
+        <div class="scrubber-slider-handle">
+            <div class="icon background"></div>
+            <div class="handle"></div>
+        </div>
+        <div class="buffered" style="width:<%= model.get('buffered') %>px">
+            <div class="elapsed" style="width:<%= model.get('progress') %>px">
+            </div>    
+        </div>    
+    </a>
+
+</script>
+<script id="embedDialogTemplate" type="text/html">
+    <div>
+        <label>embed</label>
+        <input type="text" value="<iframe src='<%= path %>' width='100%' height='520' style='border:none;overflow:hidden;'></iframe>"/>
+    </div>
+</script>
+<script type="text/javascript">
+    if (RadioTime == undefined) { var RadioTime = {}; }
+    // move all of this stuff to the response
+    RadioTime.baseUrl = "http://tunein.com/";
+    RadioTime.albumArtUrl = "http://d3tybumvrk5xfv.cloudfront.net/";
+    RadioTime.listeningTimeReportInterval = 0;
+    RadioTime.listenId = 0;
+</script>
+<footer>
+<div class="container">
+<nav class="clearfix">
+<div class="footer-nav">
+<ul>
+<li><a data-hijax="false" href="/about/" target="_blank">About Us</a></li>
+<li><a data-hijax="false" href="/careers/" target="_blank">Careers</a></li>
+<li><a data-hijax="false" href="/press/" target="_blank">Press</a></li>
+<li><a data-hijax="false" href="http://blog.tunein.com/" target="_blank">Blog</a></li>
+</ul>
+</div>
+<div class="footer-nav">
+<ul>
+<li><a data-hijax="false" href="/get-tunein/" target="_blank">Get TuneIn</a></li>
+<li><a data-hijax="false" href="http://help.tunein.com" target="_blank">Help Center</a></li>
+<li><a data-hijax="false" href="/policies/privacy/" target="_blank">Privacy</a></li>
+<li><a href="/sitemap/">Sitemap</a></li>
+</ul>
+</div>
+<div class="footer-nav">
+<ul>
+<li><a data-hijax="false" href="/advertisers/" target="_blank">Advertisers</a></li>
+<li><a data-hijax="false" href="/broadcasters/" target="_blank">Broadcasters</a></li>
+<li><a data-hijax="false" href="http://developers.tunein.com" target="_blank">Developers</a></li>
+<li><a data-hijax="false" href="/policies/" target="_blank">Terms</a></li>
+</ul>
+</div>
+<div class="call-outs fl-l">
+<div class="social">
+<h3>Follow TuneIn</h3>
+<ul class="clearfix">
+<li class="tunein"><a data-hijax="false" href="http://tunein.com" target="_blank"></a></li>
+<li class="facebook"><a data-hijax="false" href="http://facebook.com/tunein" target="_blank"></a></li>
+<li class="twitter"><a data-hijax="false" href="http://twitter.com/tunein" target="_blank"></a></li>
+<li class="google"><a data-hijax="false" href="http://plus.google.com/118268192728052100588" target="_blank"></a></li>
+<li class="linked-in"><a data-hijax="false" href="http://www.linkedin.com/company/155289" target="_blank"></a></li>
+<li class="instagram"><a data-hijax="false" href="http://instagram.com/tunein" target="_blank"></a></li>
+<li class="tumblr"><a data-hijax="false" href="http://blog.tunein.com" target="_blank"></a></li>
+</ul>
+</div>
+<div class="languages">
+<div class="clearfix drawer">
+<ul class="col">
+<li class="selected">English</li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'es-ES', z: '495312076'}); return false;">Español</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'de-DE', z: '427346125'}); return false;">Deutsch</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'fr-FR', z: '2006430627'}); return false;">Français</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'it-IT', z: '1106162735'}); return false;">Italiano</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'nl-NL', z: '1909207027'}); return false;">Nederlands</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'sv-SE', z: '769294430'}); return false;">Svenska</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'zh-CN', z: '69652068'}); return false;">简体中文</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'zh-TW', z: '121846751'}); return false;">繁體中文</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'pt-PT', z: '1270111597'}); return false;">Português</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'ja-JP', z: '1835317499'}); return false;">日本語</a></li>
+</ul><ul class="col">
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'ru-RU', z: '1623756908'}); return false;">Русский</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'da-DK', z: '1571198151'}); return false;">Dansk</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'fi-FI', z: '1905754082'}); return false;">Suomi</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'cs-CZ', z: '1576931136'}); return false;">Čeština</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'pl-PL', z: '50473173'}); return false;">Polska</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'ko-KR', z: '1857007787'}); return false;">한국어</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'ar-SA', z: '816751394'}); return false;">عربية</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'el-GR', z: '1262546274'}); return false;">Ελληνικά</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'tr-TR', z: '1005098462'}); return false;">Türkçe</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'hu-HU', z: '1956827656'}); return false;">Magyar</a></li>
+<li><a href="#" onclick="location.href=TuneIn.Helpers.addArgsToUrl(location.href,  {locale: 'hi-IN', z: '986199580'}); return false;">हिन्दी</a></li>
+</ul>
+<div class="nub"></div>
+</div>
+<div class="fader clear-fader" id="footerFader"></div>
+<div class="current"><a class="clearfix" href="#"><span class="copy">Language: English</span><span class="carrot"><span class="icon"></span></span></a></div>
+</div>
+</div>
+</nav>
+<div class="copyright">© 2014 TuneIn, Inc. All rights reserved</div>
+<div class="small-logo"></div>
+</div>
+</footer>
+<!--</div> Close #siteWrapper-->
+<div class="load"><div class="container"><span class="spinner"></span>Loading</div></div>
+<div class="modal-dialog popup" id="modalDialog"><div class="container"><div class="top"><a class="close" data-hijax="false" href="">Close</a></div><div class="modal-body"></div></div></div>
+<div class="popup modal-dialog" component="Wizard"><div class="container"><div class="top"><a class="close" data-hijax="false" href="">Close</a></div><div class="modal-body"></div></div></div>
+<div class="fader"></div>
+<div class="fader clear-fader" id="clearFader"></div>
+<div class="fader" id="loadFader"></div>
+<div class="echo-modal" component="EchoDialog">
+<div class="metadata clearfix">
+</div>
+<div id="echo-form">
+<textarea name="comment" placeholder="Add a comment..."></textarea>
+<span class="counter">100</span>
+</div>
+<div class="buttons clearfix">
+<a class="cancel">Cancel</a>
+<div class="error-response"></div>
+<a class="post">Done</a>
+</div>
+<div class="mini-fader"></div>
+<div class="warning">
+<div class="message"></div>
+<div class="buttons clearfix">
+<a class="leave">Leave</a>
+<a class="stay">Stay</a>
+</div>
+</div>
+<script id="echoDetailsTemplate" type="template">
+    <div class="meta-image">
+      <img src="<%=ImageUrl%>">
+    </div>
+    <div class="meta-text">
+      <span class="meta-text-title"><%=Title%></span><span class="meta-text-subtitle"><%=Subtitle%></span>
+    </div>
+  </script>
+</div>
+<div class="echo-modal" component="EchoDelete">
+<h3>Are you sure that you want to delete this?</h3>
+<div class="buttons clearfix">
+<a class="cancel">Cancel</a>
+<a class="delete">Delete</a>
+</div>
+</div>
+<div component="OnboardingContainer" id="onboarding-container">
+<div class="top">
+<h2>Select 5 or more interests</h2>
+<div class="submit-onboard top-link">Next</div>
+<div class="counter-message">0 selected</div>
+</div>
+<div class="loading-gif"></div>
+<div class="content-area"></div>
+</div>
+<div class="hidden" id="PlayerCheckDiv">
+<iframe frameborder="no" height="0" id="ifrmKeepAlive" src="/CapabilitiesDetect/" width="0"></iframe>
+</div>
+<div class="hidden-content">
+<script id="modal-body-template-src" type="template">
+		<div class="hd"><h2><%= head %></h2></div>
+		<div class="bd"><%= body %></div>
+		<div class="ft">
+			<div class="button-cont">
+				<a href="#" class="callback sprite-button"><span class="button-text">Ok</span></a>
+			</div>
+		</div>
+	</script>
+<script id="site-autocomplete-cont-template-src" type="template">
+		<ul id="autocomplete" class="main-search">
+			<li class="active seeall noimage"><a href="#" class="search-show-all-link"><div class="desc">Show all results...</div></a></li>
+			<li class="ajax-spinner"><img src="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/img/autocomplete-loader.gif" /></li>
+		</ul>
+	</script>
+<script id="site-autocomplete-template-src" type="template">
+		<li class="<%= addclass %> type<%= type %> <% if (typeof logo === "undefined") { %>noimage<% } %>"><a href="<%= href %>" class="clearfix"><% if (typeof logo !== "undefined") { %><div class="logo fl-l"><span class="overlay"></span><img class="search-thumbnail" src="<%= logo %>" title="<%= name %>" /></div><% } %><div class="desc"><div class="title"><%= name %></div><div class="subtext"><% if( typeof nowOn!== "undefined" && nowOn !== null ) { %><span class="bold">On Now: </span><%= nowOn %><% } else { %><% if( typeof desc!== "undefined") {%><%= desc %><% } %><% } %></div></div></a></li>
+	</script>
+</div>
+<script id="textInput" type="template">
+  <%
+	var hasError = ( typeof errors !== 'undefined' && errors[name] );
+	var classes = [];
+
+	if(typeof className !== 'undefined' ){
+	  classes.push(className);
+	}
+	  
+	if(hasError){
+	  classes.push('error');
+	}
+
+	%>
+	<% if (typeof label !== 'undefined'){ %>
+	<label 
+	  <% if (typeof id !== 'undefined') { %> 
+		for='<%= id %>' 
+	  <% } %> 
+	  <% if (classes.length > 0){ %> 
+		class='<%= classes.join(" ") %>'
+	  <% 	} %>
+	><%= label %></label> 
+  <% } %>
+
+  <% if ( hasError ){ %>
+	<div class="error-list"><%= errors[name] %></div>
+  <% } %>
+
+  <input type="<%= (typeof type !== 'undefined') ? type : 'text' %>"
+	  <% if (classes.length > 0){ %> 
+		class='<%= classes.join(" ") %>'
+	  <% } %>
+	  <% if (typeof id !== 'undefined') {  %>
+		id='<%= id %>' 
+	  <% } %>
+	  <% if (typeof name !== 'undefined') { %>
+		name='<%= name %>' 
+	  <% } %>
+	  <% if (typeof value !== 'undefined') { %>
+		value='<%= value %>' 
+	  <% } %> 
+	  <% if (typeof placeholder !== 'undefined') {%>
+		placeholder='<%= placeholder %>' 
+	  <% } %> 
+	  <% if (typeof dataAttr !== 'undefined') { %>
+		<%= dataAttr %>
+	  <% } %> 
+	/>
+
+	<% if (typeof editLink !== 'undefined') { %>
+	  <a href="#" class="editField" editField="<%= name %>">Edit</a>		
+	<% } %>
+</script>
+<script id="checkbox" type="template">
+	<input type="checkbox"
+	<% if(typeof checked !== 'undefined'){ %>
+	   checked="<%= checked %>"
+  <% } %>
+  <% if (typeof name !== 'undefined') { %>
+	 name='<%= name %>' 
+	<% } %>
+	<% if(typeof value !== 'undefined'){ %>
+	   value="<%= value %>"
+  <% } %>
+	<% if(typeof id !== 'undefined'){ %>
+	   id="<%= id %>"
+  <% } %>
+	>
+
+	<% if (typeof label !== 'undefined') { %>
+	  <label 
+		<% if (typeof id !== 'undefined') { %>
+		  for= <%= id %>
+		<% } %>
+	  >
+		<%= label %>
+	  </label>
+	<% } %>
+</script>
+<script id="authInterstitial" type="template">
+    <div id='iFader'><div class='narrow'><img src="/assets/img/loadAuth.gif" /></div></div>
+
+</script>
+<!-- TODO: TRANSLATION RE: PAST EPISODES -->
+<script id="stickyHeader" type="template">
+  <li class="_fixableItem" data-fixtop="120">
+    <div class="date-header">
+      <div class="mock-timeline">
+        <div class="compound-header fixable">
+          <div class="date-item"><h2 class="time"><%= year %></h2><span class="timeline-nub"><span class="bullet"></span></span><h2 class="title">Past Episodes</h2></div>
+          <div class="timeline-hider">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    <div class="date-header-shim compound-header fixable">
+      <div class="date-item"><h2 class="time"><%= year %></h2><span class="timeline-nub"><span class="bullet"></span></span><h2 class="title">Past Episodes</h2></div>
+      <div class="timeline-hider">&nbsp;</div>
+    </div>
+  </li>
+</script>
+<script id="failWhale" type="template">
+  <div class="container" id="fail-whale">
+    <img src='http://d3bwsr3zpy54hy.cloudfront.net/201407231517/img/fail-whale.png'/>
+    <span>We'll be right back</span>
+  </div>
+</script>
+<script id="explorePrompt" type="template">
+  <li class="entry prompt">
+    <div class="entry-head">
+      <span class="entry-head-age"></span><span class="feed-bullet"></span>
+    </div>
+    <div class="entry-body">
+      <div class="prompt-text">
+        <span class="prompt-line1">Find more content to follow</span>
+      </div>
+      <a href="/explore/" class="blue-button">
+        <span class="button-text">Explore</span>
+      </a>
+    </div>
+  </li>
+</script>
+<div id="tooltipEl"><div class="nub"></div><div class="tooltipBody"></div></div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js" type="text/javascript"></script>
+<script src="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/js/bundles/full-bundle-min.js" type="text/javascript"></script>
+<div id="fb-root"></div>
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({cookie:true, appId:'157627720928660', status:true});
+
+		FB.getLoginStatus(function(response) {
+		   if (response.authResponse) {
+		      window.fbResponse = response.authResponse;
+		      $(window).trigger('authResponse', {loggedIn:true});
+		      if (typeof RadioTime !== "undefined" && typeof RadioTime.FB !== "undefined" ) {
+		        RadioTime.FB.enableForTuning(response.authResponse, true);
+			    RadioTime.FB.enableForFavoriting(response.authResponse, true);
+			  }
+			 } else {
+			   $(window).trigger('authResponse', {loggedIn:false});
+			 }
+			 
+		}, true);
+
+		FB.XFBML.parse();
+	};
+
+	(function() {
+		var e = document.createElement('script'); 
+		e.async = true;
+		e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+		document.getElementById('fb-root').appendChild(e);
+		}()
+	);
+</script>
+<script>
+$(window).load(function () {
+    $.getScript(document.location.protocol + '//platform.twitter.com/widgets.js');
+});
+</script>
+<script src="/locale.axd?src=managelive" type="text/javascript"></script>
+<script src="http://d3bwsr3zpy54hy.cloudfront.net/201407231517/js/lib/jquery/jquery.imagesloaded.js"></script>
+<script language="javascript">
+    $(function ($) {
+      var authIframe = new AuthenticationInit({id:'authModal','src':'', 'className':'hideFader'});
+      $('#loadFader').remove();
+    });
+  </script>
+<!-- 
+WMP works poorly with JavaScript generated script tags, so we insert them 
+proactively in the HTML.  
+-->
+<script event="PlayStateChange(newState)" for="tunein_windows_player">
+  if (WindowsMediaPlayer.PlayStateChangeHandler) {
+    WindowsMediaPlayer.PlayStateChangeHandler.call(this, newState);
+  }
+</script>
+<script event="Buffering(isStart)" for="tunein_windows_player">
+  if (WindowsMediaPlayer.BufferingHandler) {
+    WindowsMediaPlayer.BufferingHandler.call(this, isStart);
+  }
+</script>
+<script event="MediaError()" for="tunein_windows_player">
+  if (WindowsMediaPlayer.PlayStateChangeHandler) {
+    WindowsMediaPlayer.PlayStateChangeHandler.call(this, 'MediaError');
+  }
+</script>
+<script event="Error()" for="tunein_windows_player">
+  if (WindowsMediaPlayer.PlayStateChangeHandler) {
+    WindowsMediaPlayer.PlayStateChangeHandler.call(this, 'Error');
+  }
+</script>
+<script>
+  function OnDSPlayStateChangeEvt(newState) {
+    WindowsMediaPlayer.PlayStateChangeHandler.call( this, newState );
+  }
+  function OnDSBufferingEvt(isStart) {
+    WindowsMediaPlayer.BufferingHandler.call(this, isStart);
+  }
+</script>
+<script src="/locale.axd?src=tuner" type="text/javascript"></script>
+<span class="hidden-g-signin" component="GoogleRender">
+<span style="display:none;"></span>
+</span>
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+  (function () {
+    var elem = document.createElement('script');
+
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    elem.onload = function () {
+      // attach the asynchronous pixel handler
+      __qc.async = function () {
+        __qc.qpixelsent = [];
+        _qevents.push({
+          qacct: __qc.qopts.qacct
+        });
+        __qc.firepixels();
+      };
+    };
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+  })();
+</script>
+<script type="text/javascript">
+  _qevents.push({
+    qacct: "p-49SVsgIZlUqPk"
+  });
+</script>
+<noscript>
+<div style="display: none;"><img alt="Quantcast" height="1" src="http://pixel.quantserve.com/pixel/p-test123.gif" width="1"/></div>
+</noscript>
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "14306206" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=14306206&amp;cv=2.0&amp;cj=1"/>
+</noscript>
+<!-- End comScore Tag -->
+<div class="share-popup" component="Share">
+<div class="share-body">
+<div class="social-header">
+<span class="social-header-title">Share</span>
+<div class="metadata">
+<div class="meta-text">
+<span class="meta-text-title"></span>
+<span class="meta-text-subtitle"></span>
+</div>
+<div class="meta-image">
+<img src=""/>
+</div>
+</div>
+</div>
+<div class="share-body-content">
+<div class="share-networks">
+<span class="share-networks-title">Share to Networks:</span>
+<div class="share-networks-buttons">
+<span class="facebook icon"></span><span class="twitter icon"></span><span class="google icon"></span><span class="tumblr icon"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="social-control">
+<span class="cancel">Cancel</span>
+</div>
+</div>
+<input name="__RequestVerificationToken" type="hidden" value="x6m__fvymZn7Ev6yR13t9nKj7v_0MmCxCT-G13YWNKH6_0u5akdGdcuwUrwHrvaF7CMtc3pKynXMznFR9uM6zICyP6adCLAnXsGSjv5QF9ZpEumgjXZ0VV0_cheiRUaM8SkGn2eZA7fN9jipnGKP1cGQy3c1"/>
+<script type="text/javascript">
+    var TuneIn = TuneIn || {};
+    TuneIn.ImagePath = 'http://d3bwsr3zpy54hy.cloudfront.net/201407231517/img/';
+
+    $.ajaxSetup({
+      beforeSend: function(xhr) {
+        var token = $('input[name="__RequestVerificationToken"]').val();
+        xhr.setRequestHeader("__RequestVerificationToken", token);
+      }
+    });
+
+      
+        TuneIn.payload = {"Explore":{"items":[{"GuideId":"s7989","Image":"http://d1i6vahw24eb07.cloudfront.net/s7989t.png","Title":"Loca Fun Radio","ShareUrl":"http://tunein.com/radio/Loca-Fun-Radio-903-s7989/","TargetItemId":"s7989"},{"GuideId":"s171246","Image":"http://d1i6vahw24eb07.cloudfront.net/s171246t.png","Title":"Loca FM Tenerife","ShareUrl":"http://tunein.com/radio/Loca-FM-Tenerife-960-s171246/","TargetItemId":"s171246"},{"GuideId":"s116701","Image":"http://d1i6vahw24eb07.cloudfront.net/s116701t.png","Title":"Locactiva radio","ShareUrl":"http://tunein.com/radio/Locactiva-radio-s116701/","TargetItemId":"s116701"},{"GuideId":"s163947","Image":"http://d1i6vahw24eb07.cloudfront.net/s163947t.png","Title":"Loca FM Salamanca","ShareUrl":"http://tunein.com/radio/Loca-FM-Salamanca-875-s163947/","TargetItemId":"s163947"},{"GuideId":"s152829","Image":"http://d1i6vahw24eb07.cloudfront.net/s152829t.png","Title":"Loca Fun FM Vitoria","ShareUrl":"http://tunein.com/radio/Loca-Fun-FM-Vitoria-888-s152829/","TargetItemId":"s152829"},{"GuideId":"s185136","Image":"http://d1i6vahw24eb07.cloudfront.net/s185136t.png","Title":"Loca Fun Radio Avila 99.0 FM","ShareUrl":"http://tunein.com/radio/Loca-Fun-Radio-Avila-990-FM-s185136/","TargetItemId":"s185136"},{"GuideId":"s115615","Image":"http://d1i6vahw24eb07.cloudfront.net/s115615t.png","Title":"Loca FM La Ribera","ShareUrl":"http://tunein.com/radio/Loca-FM-La-Ribera-977-s115615/","TargetItemId":"s115615"},{"GuideId":"p437723","Image":"http://d1i6vahw24eb07.cloudfront.net/p437723t.png","Title":"Ineil 3.0 Radio Show","ShareUrl":"http://tunein.com/radio/Ineil-30-Radio-Show-p437723/","TargetItemId":"p437723"},{"GuideId":"p370873","Image":"http://d1i6vahw24eb07.cloudfront.net/p0t.png","Title":"Hora de Locas","ShareUrl":"http://tunein.com/radio/Hora-de-Locas-p370873/","TargetItemId":"p370873"},{"GuideId":"p340906","Image":"http://d1i6vahw24eb07.cloudfront.net/s116701t.png","Title":"Las Manãnas","ShareUrl":"http://tunein.com/radio/Las-Man%c3%a3nas-p340906/","TargetItemId":"p340906"},{"GuideId":"p340982","Image":"http://d1i6vahw24eb07.cloudfront.net/s116701t.png","Title":"La maquina Del Tiempo","ShareUrl":"http://tunein.com/radio/La-maquina-Del-Tiempo-p340982/","TargetItemId":"p340982"},{"GuideId":"t51985015","Image":"http://d1i6vahw24eb07.cloudfront.net/p338612t.png","Title":"Ponte A Prueba - Lunes 30 de septiembre de 2013","ShareUrl":"http://tunein.com/topic/?topicId=51985015","TargetItemId":"t51985015"},{"GuideId":"t75472128","Image":"http://d1i6vahw24eb07.cloudfront.net/p437723t.png","Title":"iNeil 3.0 Episodio 117 - Bloque 2","ShareUrl":"http://tunein.com/topic/?topicId=75472128","TargetItemId":"t75472128"},{"GuideId":"t75472311","Image":"http://d1i6vahw24eb07.cloudfront.net/p437723t.png","Title":"iNeil 3.0 Episodio 117 - Bloque 1","ShareUrl":"http://tunein.com/topic/?topicId=75472311","TargetItemId":"t75472311"},{"GuideId":"u26146315","Image":"https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png","Title":"Loca Fm Alicante Benidorm","ShareUrl":"http://tunein.com/user/locafmalicante","TargetItemId":"u26146315"},{"GuideId":"u25723743","Image":"https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png","Title":"Radicci  FM","ShareUrl":"http://tunein.com/user/radiccifm","TargetItemId":"u25723743"},{"GuideId":"u31349618","Image":"https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png","Title":"FM kahoku","ShareUrl":"http://tunein.com/user/fmkahoku","TargetItemId":"u31349618"},{"GuideId":"u117197559","Image":"https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png","Title":"fm ","ShareUrl":"http://tunein.com/user/user142469","TargetItemId":"u117197559"},{"GuideId":"u108147405","Image":"https://d11im0xz45jykv.cloudfront.net/service/FM/user-logo_d.png","Title":"??????? ","ShareUrl":"http://tunein.com/user/fm373fm","TargetItemId":"u108147405"}]},"Live":null}
+      
+
+    //TODO: need to move calls on ToDataTransferObject when setting the view bag property once these methods are leaner, removes need to cast
+      
+        TuneIn.adSettings = {"tuneInEnabled":true,"rotationEnabled":false,"rotationPeriod":1200,"baseUrl":"http://ads.tunein.com","trackingId":"3b8508f2-3c5a-47cb-9ce1-65665056aef9","listingId":"","partnerKey":"RadioTime","supplementalProgramId":null,"displaySlots":[{"id":"div-gtp-ad-1375726570057-0","height":250,"width":300,"dimensions":[[300,250],[300,600]],"extId":"15480783/ca-pub-1542925551861702/TuneInSearch","slotName":"search_side","adType":"Display","tuneInEnabled":true,"audioBannerEnabled":false,"googleAdsEnabled":true}],"audioSlots":[],"locale":"en-US","serverUtcTime":130510394237084608,"targeting":{"env":"prod"}};
+      
+
+      
+        TuneIn.testGroup = {"tests":[]};
+      
+  </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+=========
+ChangeLog
+=========
+
+0.6:
+----
+- Tune-In support.
+- Updates stations list, lots of dead stations removed and new ones added.
+
+0.5:
+----
+- Add option to record stream to an MP3 file.
+- New stations: Ram FM, Classic FM and Radio Caroline.
+- radioIO stations were updated and broken stream URLs fixed. There are now 59 radioIO stations available.
+
+0.4:
+----
+- Add support for configuration files.
+- Added 24 new stations (all of radioIO's stations, Onda Cero, Radio 
+  Paradise and Beethoven).
+- Recognize station names that include spaces without the need to wrap the
+  name in quotes.
+
+0.3:
+----
+- Added wake-up feature, for starting the radio after specified amount of time.
+- Store the homepage of every known station.
+- Added option to list all known stations.
+- Added 3 more station (CNN, Radius, 103fm).
+- Better support for playing non-playlist based streams.
+- Added an option to change the default cache size used by mplayer.
+
+0.2:
+----
+- Added sleep feature, for turning of the radio after specified amount of time.
+- Added a few more stations.
+
+0.1:
+----
+- Initial release.

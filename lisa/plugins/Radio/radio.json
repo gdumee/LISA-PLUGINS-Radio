@@ -1,0 +1,44 @@
+{
+    "name": "Radio",
+    "version": "1.0.0",
+    "author": "Guillaume",
+    "description": [
+        {"lang": "fr", "description": "Ce plugin permet d'écouter la radio"},
+        {"lang": "en", "description": "This plugin allows you to listen radio"}
+    ],
+    "pypi-url": "xxxx",
+    "github-url": "xxxx",
+    "enabled": 1,
+    "lang": ["fr","en"],
+    "configuration": {
+        "station": "FIP",
+        "process": "xxx",
+        "PID": 0,
+        "intents": {
+            "radio_startRadio": {
+                "method": "startRadio",
+                "corpus": {}
+            },
+            "radio_stopRadio": {
+                "method": "stopRadio",
+                "corpus": {}
+            },
+            "radio_getPreviousRadio": {
+                "method": "getPreviousRadio",
+                "corpus": {}
+            },
+            "radio_getTrack": {
+                "method": "getTrack",
+                "corpus": {}
+            },
+            "radio_setVolume": {
+                "method": "setVolume",
+                "corpus": {}
+            }
+
+        },
+        "widgets": {
+            "xxxx": "xxxx"
+        }
+    }
+}

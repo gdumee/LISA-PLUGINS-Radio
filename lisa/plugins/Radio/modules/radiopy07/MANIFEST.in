@@ -1,0 +1,5 @@
+include README.rst
+include COPYING
+include ChangeLog
+include test.py
+include radiopy/data/radiopy.default
