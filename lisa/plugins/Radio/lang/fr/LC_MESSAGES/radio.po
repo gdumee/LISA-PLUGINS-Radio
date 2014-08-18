@@ -84,7 +84,7 @@ msgstr  "Je ne connais pas encore la météo à cette date"
 
 msgid "previous date"
 msgstr  "(10, \"Je ne peux pas donner la météo des jours précedents\"),"
-        "(10, \"Je ne connais pas la météo des jours passés\")"
+        "(10, \"Je ne connais pas la météo des jours passés\"),"
 
 
 #---------wind direction
@@ -149,3 +149,13 @@ msgstr  "Novembre "
 
 msgid "December"
 msgstr  "Décembre "
+
+msgid "stopping"
+msgstr  "J'arrête la radio"
+
+msgid "dont know"
+msgstr  "Je ne connais pas cette station"
+
+msgid "error"
+msgstr  "J'ai rencontré une erreur"
+
